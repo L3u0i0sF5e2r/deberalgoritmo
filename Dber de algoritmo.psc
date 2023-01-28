@@ -1,4 +1,3 @@
-
 Funcion opcion=presentarMenu(titulo,menu,lim)
 	Definir opcion Como Caracter;
 	Definir pos Como Entero;
@@ -7,7 +6,7 @@ Funcion opcion=presentarMenu(titulo,menu,lim)
 	Para pos=0 Hasta lim-1 Con Paso 1 Hacer
 		Escribir menu[pos];
 	Fin Para
-	Escribir "       Elija opción[1..",lim,"]" Sin Saltar;
+	Escribir "       Elija opciÃ³n[1..",lim,"]" Sin Saltar;
 	leer opcion
 FinFuncion
 
@@ -248,11 +247,11 @@ FinFuncion
 
 Funcion caractr_poercaracter()
 	Definir palabra,x Como Caracter;
-	Definir tamaño,i como entero;
+	Definir tamaÃ±o,i como entero;
 	Escribir "Ingrese palabra";
 	Leer palabra;
-	tamaño=longitud(palabra) ;
-	Para i=0 Hasta tamaño-1 Con Paso 1 Hacer
+	tamaÃ±o=longitud(palabra) ;
+	Para i=0 Hasta tamaÃ±o-1 Con Paso 1 Hacer
 		x=subcadena (palabra,i,i)
 		Escribir  i+1,".-"," " , x
 		Esperar 1 Segundos
